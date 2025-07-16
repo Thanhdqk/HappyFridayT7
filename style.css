@@ -34,6 +34,36 @@ body {
   color: #ff5722;
 }
 
+.intro-subtitle {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+  .intro-screen h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .intro-subtitle {
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+  }
+}
+
 #modalLabel {
   font-family: "Roboto";
   font-size: 26px;
@@ -122,18 +152,6 @@ body {
 .modal-header,
 .modal-footer {
   background-color: #fbe9e7;
-}
-
-.intro-subtitle {
-  font-size: 3rem;
-  font-weight: bold;
-  background: linear-gradient(45deg, #ff6ec4, #7873f5);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: glow 2s ease-in-out infinite alternate;
-  text-align: center;
-  margin-bottom: 30px;
-  text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
 }
 
 @keyframes glow {
